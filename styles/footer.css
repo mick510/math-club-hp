@@ -1,0 +1,8 @@
+.footer {
+  background-color: rgb(64, 64, 64);
+  display: block;
+}
+
+.footer p {
+  color: white;
+}
