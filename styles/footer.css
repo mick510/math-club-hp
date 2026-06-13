@@ -2,8 +2,21 @@
   background-color: rgb(64, 64, 64);
   display: flex;
   flex-direction: row;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   height: 250px;
-  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .footer p {
@@ -11,5 +24,18 @@
 }
 
 .logo-footer {
-  width: 100px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+
+.footer-col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-col23 {
+  display: flex;
+  flex-direction: column;
 }
