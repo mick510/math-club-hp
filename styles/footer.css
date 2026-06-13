@@ -1,8 +1,15 @@
 .footer {
   background-color: rgb(64, 64, 64);
-  display: block;
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  justify-content: space-between;
 }
 
 .footer p {
   color: white;
+}
+
+.logo-footer {
+  width: 100px;
 }
