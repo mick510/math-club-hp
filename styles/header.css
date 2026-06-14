@@ -45,6 +45,7 @@ nav {
 
 .dropdown-menu:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .dropdown-menu:hover + .dropdown-content {
