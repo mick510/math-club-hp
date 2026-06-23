@@ -1,14 +1,12 @@
 header {
   background-color: white;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
+  padding: 10px 10px 10px 10px;
   align-items: center;
   z-index: 1000;
   top: 0px;
 }
 
-nav {
+.big-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,10 +16,27 @@ nav {
   position: relative;
 }
 
+.small-header {
+  display: none;
+}
+
+@media (max-width: 930px) {
+  .big-header {
+    display: none;
+  }
+
+  .small-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 50.5px;
+  }
+}
+
 .logo-header {
   height: 20px;
   width: 20px;
-  margin-left: 10px;
 }
 
 .dropdown {
