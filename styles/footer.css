@@ -44,14 +44,14 @@
   color: white;
 }
 
-.footer-col1 {
+.big-footer-col1 {
   display: flex;
   flex-direction: column;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.footer-col1-content {
+.big-footer-col1-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +69,7 @@
   margin: auto;
 }
 
-.footer-col2 {
+.big-footer-col2 {
   display: flex;
   flex-direction: column;
 }
