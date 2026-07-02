@@ -9,13 +9,15 @@
 
 .footer p {
   color: white;
+  margin: 0px;
 }
 
 .big-ver {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 0px 25px;
+  padding-left: 30px;
+  padding-right: 10px;
 }
 
 .logo-contact {
@@ -43,18 +45,31 @@
 .sm-sec {
   display: flex;
   flex-direction: column;
+  padding-top: 10px;
+}
+
+.sm-title {
+  font-size: 17.5px;
 }
 
 .sm-grid {
   display: flex;
 }
 
+.sm-col {
+  margin-top: 12px;
+}
+
 .sm {
   display: flex;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  align-items: center;
 }
 
 .sm-img {
-  height: 50px;
+  height: 35px;
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
