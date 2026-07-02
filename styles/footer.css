@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-.footer-container {
+.big-footer-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
@@ -17,9 +17,26 @@
   margin: 20px 20px;
 }
 
+.small-footer {
+  display: none;
+}
+
+.small-footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
 @media (max-width: 780px) {
-  .footer-container {
-    grid-template-columns: 1fr 1fr;
+  .big-footer {
+    display: none;
+  }
+
+  .small-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
   }
 }
 
