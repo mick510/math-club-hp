@@ -13,3 +13,7 @@ body {
 
 .body-text {
 }
+
+hr.solid {
+  border-top: 2px solid black;
+}
