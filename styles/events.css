@@ -1,3 +1,67 @@
-.event-detail {
-  padding: 10px;
+.buttons {
+  margin-bottom: 17px;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-details {
+  padding: 15px;
+  width: 70%;
+  display: flex;
+}
+
+.event-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+}
+
+.month {
+  margin: 0px;
+  color: grey;
+  font-size: 15px;
+}
+
+.date {
+  margin: 5px 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.time {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.rem-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-title {
+  margin-bottom: 10px;
+}
+
+.event-title p {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.event-preview p {
+  font-size: 15px;
+  margin: 0px;
+}
+
+.divider-solid {
+  height: 2px;
+  width: 75%;
+  margin: 20px 0;
+  background-color: black;
 }
