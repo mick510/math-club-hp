@@ -2,57 +2,66 @@
   margin-bottom: 17px;
 }
 
-.event-detail {
+.events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-details {
   padding: 15px;
-  height: 200px;
-  box-shadow: 
-    0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-    0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.2s opacity, 0.2s transform;
-  background-color: white;
+  width: 70%;
+  display: flex;
+}
+
+.event-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+}
+
+.month {
+  margin: 0px;
+  color: grey;
+  font-size: 15px;
+}
+
+.date {
+  margin: 5px 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.time {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.rem-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .event-title {
-  font-size: 18px;
-  margin-top: 12px;
   margin-bottom: 10px;
 }
 
-.event-time {
-  font-size: 14px;
-  margin-top: 0px;
-  margin-bottom: 14px;
+.event-title p {
+  font-size: 20px;
+  margin: 0px;
 }
 
-.event-detail p {
-  margin-left: 5px;
-  margin-right: 5px;
+.event-preview p {
+  font-size: 15px;
+  margin: 0px;
 }
 
-.event-detail:hover {
-  transform: scale(1.15);
-  z-index: 10;
-}
-
-.event-detail:hover p, .event-detail:hover hr {
-  opacity: 70%;
-}
-
-.events-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 30px;
-  padding: 20px 0px;
-}
-
-@media (min-width: 670px) and (max-width: 910px) {
-  .events-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media (max-width: 670px) {
-  .events-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+.divider-solid {
+  height: 2px;
+  width: 75%;
+  margin: 20px 0;
+  background-color: black;
 }
