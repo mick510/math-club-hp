@@ -1,0 +1,21 @@
+.deets {
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.author {
+  margin-left: 70px;
+}
+
+.resource-contents {
+  
+}
