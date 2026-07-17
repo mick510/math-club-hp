@@ -17,16 +17,16 @@
   margin: 10px 0px;
 }
 
-/* .hidden {
-  display: none;
-} */
-
 .hidden {
+  display: none;
+}
+
+/* .hidden {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: flex-start;
-}
+} */
 
 .subcategory {
   margin-left: 5px;
