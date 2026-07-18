@@ -27,12 +27,37 @@ header {
   display: none;
 }
 
+.side-nav {
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1050;
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(64, 64, 64);
+}
+
+.side-nav p {
+  color: white;
+  margin: 10px;
+}
+
+.side-nav button {
+  margin: 10px;
+}
+
 @media (max-width: 930px) {
   .big-header {
     display: none;
   }
 
   .small-header {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
