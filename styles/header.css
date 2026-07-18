@@ -1,9 +1,14 @@
 header {
+  display: flex;
   background-color: white;
   align-items: center;
   position: sticky;
   z-index: 1000;
   top: 0px;
+  height: 70px;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
 }
 
 .big-header {
@@ -15,7 +20,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  height: 50.5px;
+  height: 100%;
 }
 
 .small-header {
@@ -32,7 +37,6 @@ header {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    height: 50.5px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 20px;
@@ -46,7 +50,9 @@ header {
 
 .dropdown {
   position: relative;
-  padding: auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .dropdown-content {
@@ -54,7 +60,11 @@ header {
   width: 150px;
 }
 
-.dropdown:hover {
+.dropdown-content p {
+  margin: 10px;
+}
+
+.dropdown:hover, .this-page:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -62,15 +72,17 @@ header {
 .dropdown:hover .dropdown-content {
   display: flex;
   position: absolute;
-  top: 100%;
-  left: 0px;
+  top: 80%;
   padding-left: 15px;
-  width: 100%;
+  width: 200px;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.2);
   background-color: white;
   flex-direction: column;
-  transition: text-decoration 0.15s, opacity 0.15s;
-  margin: 0;
-  padding: 10px 10px;
+  margin: 0px;
+  padding: 10px;
 }
 
 .this-page {
