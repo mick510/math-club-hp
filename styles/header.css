@@ -51,6 +51,7 @@ header {
 
 .dropdown-content {
   display: none;
+  width: 150px;
 }
 
 .dropdown:hover {
