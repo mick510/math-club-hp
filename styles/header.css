@@ -28,8 +28,8 @@ header {
 }
 
 .side-nav {
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex;
   flex-direction: column;
   position: fixed;
   z-index: 1050;
@@ -37,9 +37,13 @@ header {
   right: 0;
   top: 0;
   width: 250px;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(64, 64, 64);
+  padding: 30px; */
+}
+
+.side-nav-menu {
+  display: flex;
+  align-items: center;
 }
 
 .side-nav p {
@@ -47,8 +51,18 @@ header {
   margin: 10px;
 }
 
+.triangle {
+  width: 20px;
+  height: 20px;
+}
+
 .side-nav button {
   margin: 10px;
+}
+
+.hidden-side-nav {
+  display: none;
+  /* margin-left: 30px; */
 }
 
 @media (max-width: 930px) {
