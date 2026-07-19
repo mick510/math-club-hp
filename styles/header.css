@@ -99,7 +99,7 @@ header {
   width: 150px;
 }
 
-.dropdown-content p {
+.dropdown-content p, .dropdown-content a {
   margin: 10px;
 }
 
