@@ -11,6 +11,14 @@ header {
   border-bottom-style: solid;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .big-header {
   display: flex;
   align-items: center;
@@ -46,7 +54,7 @@ header {
   align-items: center;
 }
 
-.side-nav p {
+.side-nav a {
   color: white;
   margin: 10px;
 }
@@ -62,7 +70,9 @@ header {
 
 .hidden-side-nav {
   display: none;
-  /* margin-left: 30px; */
+  /* display: flex;
+  flex-direction: column;
+  margin-left: 30px; */
 }
 
 @media (max-width: 930px) {
@@ -101,11 +111,6 @@ header {
 
 .dropdown-content p, .dropdown-content a {
   margin: 10px;
-}
-
-.dropdown:hover, .this-page:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .dropdown:hover .dropdown-content {
